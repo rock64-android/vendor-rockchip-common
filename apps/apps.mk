@@ -75,14 +75,15 @@ endif
 ifeq ($(strip $(TARGET_BOARD_PLATFORM_PRODUCT)), box)
 PRODUCT_PACKAGES += \
     AllApp	\
-    ITVLauncher	\
+    RKTvLauncher \
     MediaCenter \
     PinyinIME \
     rkmcapp-armeabi-v7a-debug \
     ChangeLedStatus \
     WifiDisplay \
     RKDeviceTest \
-	Lightning
+    YoutubeTV	\
+    CloudMedia_BenchMark
   ifeq ($(strip $(BOARD_USE_LOW_MEM256)), true)
         PRODUCT_PACKAGES += \
               SimpleLauncher
